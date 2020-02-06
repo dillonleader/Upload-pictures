@@ -1,0 +1,57 @@
+.outbox {
+    width: 380px;
+    height: 200px;
+    position: relative;
+    margin: 100px auto;
+}
+
+.skbox {
+    float: left;
+}
+
+.imgbox {
+    float: right;
+}
+
+a {
+    display: block;
+    width: 80px;
+    height: 40px;
+    background-color: #41b883;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    /* top: 85px; */
+    text-decoration: none;
+    float: left;
+}
+
+input {
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+span {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    font-size: 14px;
+    color: #2099ca;
+}
